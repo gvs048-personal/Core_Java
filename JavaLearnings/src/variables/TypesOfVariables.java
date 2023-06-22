@@ -1,0 +1,52 @@
+package variables;
+
+public class TypesOfVariables {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	/**
+	 * Variables are used to save the values during the program execution.
+	 * --
+	 * declaring the variables
+	 * int num=10;
+	 * int=data type
+	 * num=variable name
+	 * 10=value stored in the variable 
+	 * --
+	 * 3 Types of variables
+	 * 		Local variables
+	 * 		Instance variables
+	 * 		Static variables
+	 * 
+	 * 1 Local variables
+	 * -----------------
+	 * 		Declared with in a block/method/function/constructor
+	 * 		life-created when entered into the block and destroyed when exit from that block
+	 * 		scope-access only with in that block
+	 * 		initialization-is mandatory before using it
+	 * 		access specifiers - not allowed to use
+	 * 
+	 * 2 Instance variables
+	 * -------------------
+	 * 		Declared with in the class and outside the block/method/function/constructor
+	 * 		life - created when object is created, and destroyed when object is destroyed
+	 * 		scope - class, but accessed only by creating the object
+	 * 		initialization - is not mandatory, default values will assign based on its data type	
+	 * 			initialize by using the constructor while creating the object
+	 * 		access specifiers - can able to use, it's default if not specified anything
+	 * 		- one set of data for each object
+	 * 
+	 * 3 Static / Class variables
+	 * --------------------------
+	 * 		Declared with the static keyword, inside the class and outside the block/method/constructor
+	 * 		life - Created at start of the execution, destroy at end of the execution
+	 * 		scope - class, access directly without creating the object
+	 * 		initialization - not mandatory, default values will assign based on the type
+	 * 		access specifiers - can able to use, it's default if not specified anything
+	 * 		- access without using the class name, no error if use the class name also
+	 * 		- one copy, irrespective of how many objects created
+	 */
+
+}
